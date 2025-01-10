@@ -5,6 +5,8 @@
 body{
     background-color: rgb(46, 41, 41);
     color: white;
+    box-sizing: border-box;
+    
 }
 
 .anchor{
@@ -19,6 +21,7 @@ body{
 }
 .nav-anc{
     display: flex;
+    margin-top: 20px;
 }
 .logo{
     height: 80px;
@@ -36,9 +39,11 @@ body{
     margin: auto;
     background-color: rgb(34, 129, 212);
     border: 2px solid red;
+    box-sizing: border-box;
 }
 .home-container-text{
     padding: 50px;
+    box-sizing: border-box;
 }
 .home-container-heading{
     margin-bottom: 30px;
@@ -49,6 +54,7 @@ body{
 .profile-photo-div{
     padding: 50px;
     border: 2px solid rgb(84, 197, 50);
+    box-sizing: border-box;
 }
 .profile-photo{
     height: 320px;
@@ -107,6 +113,7 @@ body{
 .portfolio-box-container{
     border: 2px solid rgb(89, 209, 183);
 }
+/* common css box */
 .box{
     background-color: rgb(130, 64, 191);
     height: 200px;
@@ -150,7 +157,7 @@ body{
     border: 2px solid rgb(89, 209, 183);
 }
 .boxe{
-    background-color: rgb(130, 64, 191);
+    background-color: rgb(201, 239, 48);
     height: 200px;
     width: 280px;
 }
@@ -162,4 +169,163 @@ body{
     display: flex;
     margin-top: 30px;
     justify-content: space-between;
+}
+/* boxes css */
+.box1-image{
+    height: 80%;
+    background-color: red;
+}
+.box1-button{
+    background-color: rgb(84, 186, 44);
+    height: 18%;
+    display: flex;
+    gap: 50px;
+    justify-content: space-between;
+    margin-inline: 20px;
+}
+.box2-image{
+    height: 80%;
+    background-color: red;
+}
+.box2-button{
+    background-color: rgb(84, 186, 44);
+    height: 18%;
+    display: flex;
+    gap: 50px;
+    justify-content: space-between;
+    margin-inline: 20px;
+}
+.box3-image{
+    height: 80%;
+    background-color: red;
+}
+.box3-button{
+    background-color: rgb(84, 186, 44);
+    height: 18%;
+    display: flex;
+    gap: 50px;
+    justify-content: space-between;
+    margin-inline: 20px;
+}
+.box4-image{
+    height: 80%;
+    background-color: red;
+}
+.box4-button{
+    background-color: rgb(84, 186, 44);
+    height: 18%;
+    display: flex;
+    gap: 50px;
+    justify-content: space-between;
+    margin-inline: 20px;
+}
+.box5-image{
+    height: 80%;
+    background-color: red;
+}
+.box5-button{
+    background-color: rgb(84, 186, 44);
+    height: 18%;
+    display: flex;
+    gap: 50px;
+    justify-content: space-between;
+    margin-inline: 20px;
+}
+.box6-image{
+    height: 80%;
+    background-color: red;
+}
+.box6-button{
+    background-color: rgb(84, 186, 44);
+    height: 18%;
+    display: flex;
+    gap: 50px;
+    justify-content: space-between;
+    margin-inline: 20px;
+}
+
+.box7-image{
+    height: 80%;
+    background-color: red;
+}
+.box7-button{
+    background-color: rgb(84, 186, 44);
+    height: 18%;
+    display: flex;
+    gap: 50px;
+    justify-content: space-between;
+    margin-inline: 20px;
+}
+.box8-image{
+    height: 80%;
+    background-color: red;
+}
+.box8-button{
+    background-color: rgb(84, 186, 44);
+    height: 18%;
+    display: flex;
+    gap: 50px;
+    justify-content: space-between;
+    margin-inline: 20px;
+}
+.box9-image{
+    height: 80%;
+    background-color: red;
+}
+.box9-button{
+    background-color: rgb(84, 186, 44);
+    height: 18%;
+    display: flex;
+    gap: 50px;
+    justify-content: space-between;
+    margin-inline: 20px;
+}
+.box10-image{
+    height: 80%;
+    background-color: red;
+}
+.box10-button{
+    background-color: rgb(84, 186, 44);
+    height: 18%;
+    display: flex;
+    gap: 50px;
+    justify-content: space-between;
+    margin-inline: 20px;
+}
+.box11-image{
+    height: 80%;
+    background-color: red;
+}
+.box11-button{
+    background-color: rgb(84, 186, 44);
+    height: 18%;
+    display: flex;
+    gap: 50px;
+    justify-content: space-between;
+    margin-inline: 20px;
+}
+.box12-image{
+    height: 80%;
+    background-color: red;
+}
+.box12-button{
+    background-color: rgb(84, 186, 44);
+    height: 18%;
+    display: flex;
+    gap: 50px;
+    justify-content: space-between;
+    margin-inline: 20px;
+}
+.boxe-text{
+    margin: auto;
+}
+
+/* common css demo and code anchor tag*/
+.demo{
+    border: 2px solid black;
+    height: 100%;
+}
+.code{
+    border: 2px solid black;
+    height: 100%;
 }
