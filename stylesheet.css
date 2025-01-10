@@ -1,0 +1,165 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: rgb(46, 41, 41);
+    color: white;
+}
+
+.anchor{
+    color: white;
+    margin-right: 20px;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 10px;
+    padding-inline: 50px;
+}
+.nav-anc{
+    display: flex;
+}
+.logo{
+    height: 80px;
+}
+.home{
+   border: 2px solid greenyellow;
+   height: 100vh;
+   width: 100vw;
+   display: flex;
+   flex-direction: column;
+}
+.home-container{
+    display: flex;
+    width: 900px;
+    margin: auto;
+    background-color: rgb(34, 129, 212);
+    border: 2px solid red;
+}
+.home-container-text{
+    padding: 50px;
+}
+.home-container-heading{
+    margin-bottom: 30px;
+}
+.home-container-desc{
+    margin-bottom: 20px;
+}
+.profile-photo-div{
+    padding: 50px;
+    border: 2px solid rgb(84, 197, 50);
+}
+.profile-photo{
+    height: 320px;
+    width: 270px;
+    border-radius: 10px;
+}
+.portfolio-button{
+    height: 40px;
+    width: 100px;
+}
+.about{
+    height: 100vh;
+    width: 100vw;
+    border: 2px solid red;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+}
+.about-container{
+    border: 2px solid rgb(24, 74, 131); 
+    width: 900px;
+    margin: auto;
+}
+.about-heading{
+    margin-bottom: 50px;
+    font-size: 40px;
+}
+.about-desc{
+    margin-bottom: 20px ;
+    font-size: 20px;
+}
+.portfolio{
+    border: 2px solid rgb(205, 51, 153);
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+}
+.portfolio-container{
+    background-color: chartreuse;
+    height: 600px;
+    width: 900px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+}
+.portfolio-text{
+    border: 2px solid red;
+    height: 100px;
+    width: 900px;
+    margin: auto;
+}
+.portfolio-heading{
+    margin-bottom: 15px;
+}
+.portfolio-box-container{
+    border: 2px solid rgb(89, 209, 183);
+}
+.box{
+    background-color: rgb(130, 64, 191);
+    height: 200px;
+    width: 280px;
+}
+.box-c1{
+    display: flex;
+    justify-content: space-between;
+}
+.box-c2{
+    display: flex;
+    margin-top: 30px;
+    justify-content: space-between;
+}
+
+.experience{
+    border: 2px solid rgb(205, 51, 153);
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+}
+.experience-container{
+    background-color: chartreuse;
+    height: 600px;
+    width: 900px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+}
+.experience-text{
+    border: 2px solid red;
+    height: 100px;
+    width: 900px;
+    margin: auto;
+}
+.experience-heading{
+    margin-bottom: 15px;
+}
+.experience-box-container{
+    border: 2px solid rgb(89, 209, 183);
+}
+.boxe{
+    background-color: rgb(130, 64, 191);
+    height: 200px;
+    width: 280px;
+}
+.box-e1{
+    display: flex;
+    justify-content: space-between;
+}
+.box-e2{
+    display: flex;
+    margin-top: 30px;
+    justify-content: space-between;
+}
