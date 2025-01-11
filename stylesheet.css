@@ -3,7 +3,7 @@
   margin: 0;
 }
 body {
-  background-color: rgb(46, 41, 41);
+  background-image: linear-gradient(black , rgb(83, 79, 79));
   color: white;
   box-sizing: border-box;
 }
@@ -63,6 +63,15 @@ body {
 .portfolio-button {
   height: 40px;
   width: 100px;
+  background-image: linear-gradient(rgb(108, 201, 199), rgb(23, 142, 188));
+  border: 2px solid rgb(86, 79, 79);
+  border-radius: 8px;
+  color: white;
+  font-size: 12px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.portfolio-button:hover{
+  color: black;
 }
 .about {
   height: 100vh;
@@ -118,6 +127,10 @@ body {
   height: 200px;
   width: 280px;
   border-radius: 10px;
+  background-color: rgb(113, 103, 103);
+}
+.box:hover{
+  background-color: rgb(157, 150, 150);
 }
 .box-c1 {
   display: flex;
@@ -157,9 +170,11 @@ body {
   /* border: 2px solid rgb(89, 209, 183); */
 }
 .boxe {
-  background-color: rgb(201, 239, 48);
+  /* background-color: rgb(201, 239, 48); */
   height: 200px;
   width: 280px;
+  border-radius: 10px;
+  background-color: rgb(113, 103, 103);
 }
 .box-e1 {
   display: flex;
@@ -260,14 +275,17 @@ body {
   gap: 50px;
   justify-content: space-between;
   margin-inline: 20px;
-}
+} 
 
 .box7-image {
   height: 80%;
-  background-color: red;
+  background-color: rgb(128, 120, 120);
+  border-radius: 10px;
+  background-image: url("");
+  background-size: cover;
 }
 .box7-button {
-  background-color: rgb(84, 186, 44);
+  /* background-color: rgb(84, 186, 44); */
   height: 18%;
   display: flex;
   gap: 50px;
@@ -276,12 +294,13 @@ body {
 }
 .box8-image {
   height: 80%;
-  background-color: red;
+  background-color: rgb(128, 120, 120);
+  border-radius: 10px;
   background-image: url("");
   background-size: cover;
 }
 .box8-button {
-  background-color: rgb(84, 186, 44);
+  /* background-color: rgb(84, 186, 44); */
   height: 18%;
   display: flex;
   gap: 50px;
@@ -290,12 +309,13 @@ body {
 }
 .box9-image {
   height: 80%;
-  background-color: red;
+  background-color: rgb(128, 120, 120);
+  border-radius: 10px;
   background-image: url("");
   background-size: cover;
 }
 .box9-button {
-  background-color: rgb(84, 186, 44);
+  /* background-color: rgb(84, 186, 44); */
   height: 18%;
   display: flex;
   gap: 50px;
@@ -304,12 +324,13 @@ body {
 }
 .box10-image {
   height: 80%;
-  background-color: red;
+  background-color: rgb(128, 120, 120);
+  border-radius: 10px;
   background-image: url("");
   background-size: cover;
 }
 .box10-button {
-  background-color: rgb(84, 186, 44);
+  /* background-color: rgb(84, 186, 44); */
   height: 18%;
   display: flex;
   gap: 50px;
@@ -318,12 +339,13 @@ body {
 }
 .box11-image {
   height: 80%;
-  background-color: red;
+  background-color: rgb(128, 120, 120);
+  border-radius: 10px;
   background-image: url("");
   background-size: cover;
 }
 .box11-button {
-  background-color: rgb(84, 186, 44);
+  /* background-color: rgb(84, 186, 44); */
   height: 18%;
   display: flex;
   gap: 50px;
@@ -332,12 +354,13 @@ body {
 }
 .box12-image {
   height: 80%;
-  background-color: red;
+  background-color: rgb(128, 120, 120);
+  border-radius: 10px;
   background-image: url("");
   background-size: cover;
 }
 .box12-button {
-  background-color: rgb(84, 186, 44);
+  /* background-color: rgb(84, 186, 44); */
   height: 18%;
   display: flex;
   gap: 50px;
@@ -360,4 +383,88 @@ body {
   height: 100%;
   color: white;
   margin-top: 5px;
+}
+/* footer section css */
+.footer{
+  width: 100vw;
+}
+.footer-container{
+  /* border: 2px solid red; */
+  width: 500px;
+  margin: auto;
+  margin-top: 50px;
+  text-align: center;
+}
+.contact-text{
+  margin-bottom: 30px;
+  color: rgb(165, 158, 158);
+}
+.contact-option{
+  color: rgb(165, 158, 158);
+}
+.fix-container{
+  position: fixed;
+  /* background-color:rgb(128, 114, 114); */
+  margin-top: 280px;
+  width: 160px;
+  margin-left: -100px;
+}
+.fix-container-box{
+  margin-bottom: 10px;
+  margin-inline: 10px;
+  margin-top: 10px;
+}
+/* fix-container box1234 */
+.fix-container-box1{
+  display: flex;
+  justify-content: space-between;
+  /* border: 2px solid red; */
+  font-size: 20px;
+  padding: 10px;
+  background-color: rgb(128, 114, 114);
+}
+.fix-container-box2{
+  display: flex;
+  justify-content: space-between;
+  /* border: 2px solid red; */
+  font-size: 20px;
+  padding: 10px;
+  background-color: rgb(128, 114, 114);
+}
+.fix-container-box3{
+  display: flex;
+  justify-content: space-between;
+  /* border: 2px solid red; */
+  font-size: 20px;
+  padding: 10px;
+  background-color: rgb(128, 114, 114);
+}
+.fix-container-box4{
+  display: flex;
+  justify-content: space-between;
+  /* border: 2px solid red; */
+  font-size: 20px;
+  padding: 10px;
+  background-color: rgb(128, 114, 114);
+}
+/* fix container hover css */
+.fix-container-box1:hover{
+  margin-left: 80px;
+  background-color: rgb(128, 114, 114);
+  width: 100px;
+}
+.fix-container-box2:hover{
+  margin-left: 80px;
+  background-color: rgb(128, 114, 114);
+  width: 100px;
+}
+.fix-container-box3:hover{
+  margin-left: 80px;
+  background-color: rgb(128, 114, 114);
+  width: 100px;
+}
+.fix-container-box4:hover{
+  margin-left: 80px;
+  background-color: rgb(128, 114, 114);
+  width: 100px;
 }
